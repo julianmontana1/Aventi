@@ -15,7 +15,7 @@ body {
   background: #5da5a4 url(images/bg-header-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 80px;
+  padding: 100px;
 }
 
 .main {
@@ -65,6 +65,24 @@ body {
   margin-right: 12px;
 }
 
+@-webkit-keyframes mymove {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
 .job {
   background: #ffffff;
   border-radius: 8px;
@@ -75,6 +93,15 @@ body {
   min-height: 80px;
   display: inline-block;
   width: 100%;
+  position: relative;
+  -webkit-animation: mymove 0.5s;
+          animation: mymove 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.featuredjob {
+  border-left: 6px solid #5ba4a4;
 }
 
 .company {

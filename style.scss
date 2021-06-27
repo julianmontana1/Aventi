@@ -23,7 +23,7 @@ body{
     background: #5da5a4 url(images/bg-header-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
+    padding: 100px;
   }
   
 .main {
@@ -74,6 +74,11 @@ body{
         }
 }
 
+@keyframes mymove {
+    from {bottom: -200px;}
+    to {bottom: 0px;}
+  }
+
   .job {
     background: #ffffff;
     border-radius: 8px;
@@ -83,7 +88,16 @@ body{
     min-height: 80px;
     display: inline-block;
     width: 100%;
+    position: relative;
+    animation: mymove 0.5s;
+    animation-timing-function: ease-out;
   }
+
+  .featuredjob{
+    border-left: 6px solid $maincolor;
+  }
+
+
 
 .company {
     float: left;

@@ -4,7 +4,7 @@ function info() {
     fetch('data.json')
         .then(res => res.json())
         .then(datos => {
-            // console.log(datos)
+            console.log(datos)
             data(datos)
         })
 }
@@ -22,12 +22,11 @@ function data(datos) {
         // console.log(valor.nombre)
         contenido.innerHTML += `
     
-        <div class="job"> 
-    <div class="title half">
+    <div class="job ${ valor.featured ? "featuredjob" : " " }" > 
+        <div class="title half">
         <div class="companylogo">
             <img class="logo" src="${ valor.logo }"/>
         </div>
-
         <div class="topinfo">
         <span class="company">${ valor.company }</span>
         <span class="${ valor.new ? "new" : "oculto" }">NEW!</span>
@@ -39,21 +38,15 @@ function data(datos) {
             <div class="bottomtags">
                 <span>${valor.postedAt}</span><span>•</span><span>${valor.contract}</span><span>•</span><span>${valor.location}</span>
             </div>
+        </div>          
         </div>
-    
-        
-    </div>
-    <div class="tags half">
+        <div class="tags half">
         <span>${ valor.role } </span>
         <span>${ valor.level } </span>
         ${valor.languages ? lenguajes(valor.languages) : ""}	
-        
-        
+                
+        </div>
     </div>
-
-
-</div>
-
         
         `
     }
