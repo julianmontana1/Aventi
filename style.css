@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;500;600;700&display=swap");
+body {
+  background: #effafa;
+  margin: 0px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #f0fafb;
+}
+
+.top {
+  background: #5da5a4 url(images/bg-header-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+.main {
+  padding: 20px 15%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+.companylogo {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.companylogo .logo {
+  display: inline-block;
+  width: 100%;
+  max-width: 100px;
+}
+
+.topinfo {
+  width: 77%;
+  float: left;
+  padding-left: 3%;
+}
+
+.bottominfo {
+  float: left;
+  width: 77%;
+  padding-left: 3%;
+}
+
+.bottomtags {
+  width: 100%;
+  display: inline-block;
+  font-size: 1em;
+  margin: 10px 0px;
+  color: #2c3a3a;
+}
+
+.bottomtags span {
+  margin-right: 12px;
+}
+
+.job {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 45px 40px;
+  margin: 20px 40px;
+  -webkit-box-shadow: 1px 3px 16px 1px #d1e8e8;
+          box-shadow: 1px 3px 16px 1px #d1e8e8;
+  min-height: 80px;
+  display: inline-block;
+  width: 100%;
+}
+
+.company {
+  float: left;
+  font-size: 1em;
+  margin: 5px;
+  color: #5ba4a4;
+  font-weight: 500;
+}
+
+.new {
+  float: left;
+  background: #5ba4a4;
+  color: #fff;
+  padding: 5px 8px 3px 8px;
+  border-radius: 14px;
+  font-size: 0.8em;
+  margin: 0px 10px;
+}
+
+.featured {
+  float: left;
+  margin: 0px;
+  background: #2b3939;
+  color: #fff;
+  padding: 5px 8px 3px 8px;
+  border-radius: 14px;
+  font-size: 0.8em;
+  margin: 0px 10px;
+}
+
+.oculto {
+  display: none;
+}
+
+.position {
+  display: block;
+  font-weight: 700;
+  float: left;
+  font-size: 1.2em;
+  width: 75%;
+  margin: 5px 0px;
+}
+
+.tags {
+  padding-top: 30px;
+  text-align: right;
+}
+
+.tags span {
+  float: revert;
+  background: #effafa;
+  color: #5ba4a4;
+  padding: 8px 12px 6px 12px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin: 0px 6px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
