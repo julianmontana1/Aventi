@@ -142,3 +142,73 @@ body{
         font-weight: 600;
         }
 }
+
+@media screen and (max-width: 1200px) {
+
+    .job {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 20px 0px;
+    }
+    
+    .half {
+        width: 100%;
+        float: left;
+    }
+    
+    .companylogo {
+        float: left;
+        width: 100%;
+        text-align: center;
+    
+        .logo {
+            max-width: 50px;
+            position: relative;
+            top: -30px;
+            width: 100%;
+            float: left;
+            margin-bottom: -20px;
+        }
+    }
+    
+    
+    
+    .topinfo {
+        width: 100%;
+        float: left;
+        padding-left: 0%;
+    }
+    
+    .bottominfo {
+        float: left;
+        width: 100%;
+        padding-left: 0%;
+    }
+    
+    .position {
+        font-size: 1.1em;
+        width: 100%;
+    }
+    
+    .bottomtags {
+        font-size: 0.9em;
+    }
+    
+    
+    .tags {
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+    
+        span {
+            margin: 6px;
+            float: left;
+        }
+    }
+    
+    .new, .featured {
+        font-size: 0.7em;
+    }
+    
+    
+    }
